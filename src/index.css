@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+.nav {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+.site-title {
+  font-size: 2rem;
+}
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+.nav li.active {
+  color: skyblue;
+}
+.nav li:hover {
+  background-color: skyblue;
+}
+.inputContainer {
+  margin: 0 auto;
+  border: solid 1px black;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1506508618093-6fe5ce3def4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80");
+}
+.input {
+  border: 1px solid black;
+  margin-top: 100px;
+  width: 600px;
+  border-radius: 15px;
+  height: 70px;
+  font-size: 1.6em;
+  font-weight: 200;
+  padding-left: 10px;
+}
+.btn {
+  background-color: #282626;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.h3Header {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  font-weight: 300;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.pTagTracking {
+  font-size: 1em;
+}
+.imgNoResult {
+  margin: 0 auto;
+}
+.pTagNoresults {
+  text-align: center;
+}
+
+.service-page-container {
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+}
+.service-heading {
+  padding: 10px;
+  margin-bottom: 50px;
+  color: #090962;
+  font-size: larger;
+  font-weight: 700;
+}
+.para {
+  text-align: justify;
+  line-height: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  background-color: rgb(212, 248, 249);
+  opacity: 1;
+}
+.service-page-container #tech {
+  max-width: 400px;
+  float: right;
+  border-radius: 8px;
+  margin: 13px 0 2px 20px;
+}
+.hero {
+  width: 100%;
+  padding: 200px 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+.service-page-container {
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 10px;
+}
