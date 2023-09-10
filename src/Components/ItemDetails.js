@@ -7,7 +7,7 @@ const ItemDetails = ({ value }) => {
 
   const getData = () => {
    axios.get(
-        `https://imexcargo-backend.onrender.com/api/products/64fc9890d515df621ce90a67`
+        `https://imexcargobackend.onrender.com/api/products/64fc9890d515df621ce90a67`
       )
       .then((response) => {
         const data = response?.data;
