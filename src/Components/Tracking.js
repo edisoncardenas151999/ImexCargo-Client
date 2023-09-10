@@ -11,7 +11,7 @@ const Tracking = () => {
 
   const getData = () => {
     axios
-      .get(`https://imexcargo-backend.onrender.com/api/products/${id}`)
+      .get(`https://imexcargobackend.onrender.com/api/products/${id}`)
       .then((response) => {
         const data = response?.data;
         setsearchResult(data);
