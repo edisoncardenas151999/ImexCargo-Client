@@ -6,8 +6,9 @@ const ItemDetails = ({ value }) => {
   const [searchResult, setsearchResult] = useState("");
 
   const getData = () => {
-    axios
-      .get(`http://localhost:3000/api/products/64fc9890d515df621ce90a67`)
+   axios.get(
+        `https://imexcargo-backend.onrender.com/api/products/64fc9890d515df621ce90a67`
+      )
       .then((response) => {
         const data = response?.data;
         setsearchResult(data);
