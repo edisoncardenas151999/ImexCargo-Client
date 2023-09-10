@@ -12,7 +12,7 @@ const HomePage = () => {
         className="w-full h-screen object-cover object-left  "
         src="https://images.unsplash.com/photo-1606185540834-d6e7483ee1a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
       />
-      <div className="w-full h-screen absolute top-24  bg-[#bfdbfe]/30 ">
+      <div className="w-full h-screen absolute top-36  bg-[#bfdbfe]/30 ">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center ">
           <h1 className="sm:text-6xl text-5xl  font-semibold text-[#f8fafc]  animate-fade ">
             Welcome to Imex Cargo
